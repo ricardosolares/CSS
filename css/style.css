@@ -21,6 +21,9 @@ header nav{
 
 }
 
+.contenedor{
+    display: flex;
+}
 
 header nav ul{
 
@@ -53,12 +56,16 @@ header nav ul li a:hover  {
     color: #fff;
 }
 
+.main{
+    width: 70%;
+}
 
 .main .articles{
     width: 70%;
     float: left;
     background: #fff;
     color: #fff;
+ 
 }
 
 .main .articles article{
@@ -66,16 +73,31 @@ header nav ul li a:hover  {
     background: #fff;
     margin-bottom: 20px;
     color: #fff;
+
 }
 
-aside{
-    flex: 1;
-    width: 30%;
-    background-color: #ff8000;
-    float: left;
-    color: black;
+
+article {
+    background-color: #fff;
     padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+/* PARA LA OTRA SECCIÓN*/
+.main2{
+    width: 30%;
+    padding: 30px;
     
+
+}
+.article2 {
+    flex: 1;
+    background-color: #ff8c00;
+    color: black;
+    padding: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 footer{
